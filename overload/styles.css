@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.parallax {
+    /* The image used */
+    /* background-image: url("img/robotDARK.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    
+    background-position: center;
+    background-repeat: round;
+    background-size: 500px;
+    background-image: linear-gradient(to bottom, #06446b, #fbfdff);
+}
+
+#head{
+    height: 100vh;
+    background-color: #06446b;
+    opacity: 1;
+    color: 	#F5F5F5;
+}
+
+#head img{
+    margin-top: 10vh;
+    max-height: 30vh;
+    margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 766px) {
+    #head img {
+        height: 25vh;
+    }
+    #head{
+        height: 100%
+    }
+}
+
+#head h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+#head h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+#head h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    background-color: #03253b;
+}
+
+#head h4{
+    font-family: 'Oswald', sans-serif;
+    font-size:30px;
+}
+
+#head a i{
+    font-size: 50px;
+    color: white;
+    vertical-align: middle;
+}
+
+#head .btn-primary{
+    font-family: 'Oswald', sans-serif;
+    width: 275px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    border-width: 5px;
+    border-radius: 0px;
+}
+
+#head .btn-primary:hover{
+    background-color: white;
+    color: black;
+    outline-color: white;
+    outline-width: 5px;
+}
+
+#about .container,#faq .container,#register .container,#schedule .container{
+    border-radius: 20px;
+    padding: 25px;
+}
+
+#about img{
+    max-width: 100%;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+#faq h4{
+    font-size: 20px;
+}
+
+#LHDphotos img{
+    border-radius: 10px;
+}
+
+#schedule p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#schedule .event{
+    line-height: 2;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.sponsor {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px;
+}
+
+
+#robot img{
+    height: 200px;
+
+}
